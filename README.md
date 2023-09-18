@@ -21,14 +21,14 @@ Analysis and Insights:<br>
 •	Hive Analytics: Leveraged Hive for computing the yearly average visibility distances, yielding valuable insights into long-term visibility patterns.<br>
 
 Files Overview :<br>
-Mapper_part1.py : Mapper for extracting wind direction corresponding to each observation month in NCDC records, grouped by year
-Reducer_part1.py : Reducer for calculating average wind direction from the input from Mapper_part1.py
-PySpark_part2 : PySpark to determine the range (max-min) of sky ceiling heights (meters) for each USAF weather station ID 
-Mapper_part3.py : Mapper for extracting USAF weather station ID and visibility distance (meters) from NCDC records
-Reducer_part3.py : Reducer for writing the USAF weather station ID and visibility distance data into a text file.
-visibility_data.txt :  Text file extracted after Reducer_part3.py which is utilized as an input for both pig and hive
-Hive and Pig Programs: Refer part 4 in Bigdata_ProjectReport
-
+Mapper_part1.py : Mapper for extracting wind direction corresponding to each observation month in NCDC records, grouped by year.<br>
+Reducer_part1.py : Reducer for calculating average wind direction from the input from Mapper_part1.py.<br>
+PySpark_part2 : PySpark to determine the range (max-min) of sky ceiling heights (meters) for each USAF weather station ID. <br>
+Mapper_part3.py : Mapper for extracting USAF weather station ID and visibility distance (meters) from NCDC records.<br>
+Reducer_part3.py : Reducer for writing the USAF weather station ID and visibility distance data into a text file.<br>
+visibility_data.txt :  Text file extracted after Reducer_part3.py which is utilized as an input for both pig and hive.<br>
+Hive and Pig Programs: Refer part 4 in Bigdata_ProjectReport.<br>
+Bigdata_ProjectReport :  Available under Report folder. Walks through the entire process of this project step by step.
 
 
 
