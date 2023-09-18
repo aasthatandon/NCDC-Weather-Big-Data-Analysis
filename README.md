@@ -19,8 +19,12 @@ MapReduce, Python, PySpark, Pig, Hive, AWS , HDFS
 Analysis and Insights:
 
 •	Mapper and Reducer for Wind direction: Developed Mapper and Reducer to extract and calculate the average wind direction (degrees) for each observation month in NCDC records, grouped by year (e.g., 195001).
+
 •	PySpark Application for Sky Ceiling Heights: Created a PySpark application to efficiently determine the range (max-min) of sky ceiling heights (meters).
+
 •	Mapper and Reducer Implementation: Designed a custom Mapper and Reducer for extracting USAF weather station IDs and visibility distances from the NCDC dataset.
+
 •	Pig Data Analysis: Conducted data analysis using Pig to uncover annual visibility distance ranges, allowing for the identification of yearly trends.
+
 •	Hive Analytics: Leveraged Hive for computing the yearly average visibility distances, yielding valuable insights into long-term visibility patterns
 
