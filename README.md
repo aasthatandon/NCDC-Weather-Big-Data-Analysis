@@ -22,12 +22,14 @@ MapReduce, Python, PySpark, Pig, Hive, AWS , HDFS
 •	Hive Analytics: Leveraged Hive for computing the yearly average visibility distances, yielding valuable insights into long-term visibility patterns.<br>
 
 ### Files Overview :
-Mapper_part1.py : Mapper for extracting wind direction corresponding to each observation month in NCDC records, grouped by year.Available under codes folder.<br>
-Reducer_part1.py : Reducer for calculating average wind direction from the input from Mapper_part1.py.Available under codes folder.<br>
-PySpark_part2 : PySpark to determine the range (max-min) of sky ceiling heights (meters) for each USAF weather station ID.Available under codes folder. <br>
-Mapper_part3.py : Mapper for extracting USAF weather station ID and visibility distance (meters) from NCDC records.Available under codes folder.<br>
-Reducer_part3.py : Reducer for writing the USAF weather station ID and visibility distance data into a text file. Available under codes folder<br>
-visibility_data.txt :  Text file extracted after Reducer_part3.py which is utilized as an input for both pig and hive.Available under codes folder.<br>
+#### Under Codes Folder
+Mapper_part1.py : Mapper for extracting wind direction corresponding to each observation month in NCDC records, grouped by year.<br>
+Reducer_part1.py : Reducer for calculating average wind direction from the input from Mapper_part1.py.<br>
+PySpark_part2 : PySpark to determine the range (max-min) of sky ceiling heights (meters) for each USAF weather station ID.<br>
+Mapper_part3.py : Mapper for extracting USAF weather station ID and visibility distance (meters) from NCDC records.<br>
+Reducer_part3.py : Reducer for writing the USAF weather station ID and visibility distance data into a text file. <br>
+visibility_data.txt :  Text file extracted after Reducer_part3.py which is utilized as an input for both pig and hive.<br>
+#### Under Report Folder : 
 Hive and Pig Programs: Refer part 4 in Bigdata_ProjectReport under Report folder.<br>
 Bigdata_ProjectReport :  Walks through the entire process of this project step by step available under Report folder.
 
