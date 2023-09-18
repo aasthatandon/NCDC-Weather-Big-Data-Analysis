@@ -9,7 +9,9 @@ Project Description:
 
 Performed comprehensive analysis on the National Climatic Data Center (NCDC) weather dataset, which comprises daily weather measurements (temperature, visibility distance, wind speed, humidity, pressure) from over 9000 weather stations worldwide, spanning the period from 1929 to 2020. For this project, I utilized both a university-managed Hadoop system on Unix and AWS, combining on-premises resources with cloud-based scalability.
 
-Tools and Technologies: MapReduce, Python, PySpark, Pig, Hive, AWS , HDFS
+Tools and Technologies: 
+
+MapReduce, Python, PySpark, Pig, Hive, AWS , HDFS
 
 Analysis and Insights:
 
